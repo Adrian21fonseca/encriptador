@@ -1,0 +1,67 @@
+@media (min-width:301px) and (max-width:560px){
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(89, 129, 129);
+        max-width: 560px;
+    }
+
+    .encabezado{
+        background: rgb(137, 225, 225);
+    }
+    
+    .titulo-principal{
+        background: rgb(137, 225, 225);
+        margin: 0 0 0;
+        padding: 10px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .marca{
+        margin: 0 0 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+        padding-bottom: 5px;
+    }
+
+    .bloque-1{
+        text-align: center;
+    }
+
+    textarea{
+        width: 75%;
+        resize: none;
+        margin-bottom: 10px;
+        background: rgb(159, 215, 215);
+        border-radius: 9px;
+        border-color: rgb(137, 225, 225);
+        box-shadow: 2px 2px rgb(137, 225, 225);
+    }
+
+    .botones{
+        margin-bottom: 15px;
+    }
+
+    .boton{
+        width: 75%;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 9px;
+        border-radius: 7px;
+        border-color:rgb(137, 225, 225) ;
+        background:rgb(147, 214, 214) ;
+        box-shadow: 2px 2px rgb(137, 225, 225);
+        margin-bottom: 7px;
+        transition: .7s;
+    }
+
+    .boton:hover{
+        width: 80%;
+        background:rgb(92, 186, 186);
+        transition: 1s;
+        cursor: pointer;
+    }
+}
