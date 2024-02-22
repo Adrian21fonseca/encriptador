@@ -31,6 +31,10 @@
         text-align: center;
     }
 
+    .bloque-2{
+        text-align: center;
+    }
+
     textarea{
         width: 75%;
         resize: none;
@@ -39,13 +43,30 @@
         border-radius: 9px;
         border-color: rgb(137, 225, 225);
         box-shadow: 2px 2px rgb(137, 225, 225);
+        padding: 10px;
+        color: rgb(0, 161, 193);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    textarea:focus, textarea:active{
+        border: none;
+        outline: none;
+    }
+
+    .tex-informativo{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 0 10px;
+        text-align: center;
+        color: rgb(170, 170, 170);
     }
 
     .botones{
         margin-bottom: 15px;
     }
 
-    .boton{
+    .botonEncriptar{
         width: 75%;
         font-size: 12px;
         font-weight: bold;
@@ -58,10 +79,61 @@
         transition: .7s;
     }
 
-    .boton:hover{
+    .botonDesencriptar{
+        width: 75%;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 9px;
+        border-radius: 7px;
+        border-color:rgb(137, 225, 225) ;
+        background:rgb(147, 214, 214) ;
+        box-shadow: 2px 2px rgb(137, 225, 225);
+        margin-bottom: 7px;
+        transition: .7s;
+    }
+
+    .botonCopiar{
+        width: 75%;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 9px;
+        border-radius: 7px;
+        border-color:rgb(137, 225, 225) ;
+        background:rgb(147, 214, 214) ;
+        box-shadow: 2px 2px rgb(137, 225, 225);
+        margin-bottom: 7px;
+        transition: .7s;
+    }
+
+
+    .botonEncriptar:hover{
         width: 80%;
         background:rgb(92, 186, 186);
         transition: 1s;
         cursor: pointer;
+    }
+
+    .botonDesencriptar:hover{
+        width: 80%;
+        background:rgb(92, 186, 186);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .botonCopiar:hover{
+        width: 80%;
+        background:rgb(92, 186, 186);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    footer p{
+        text-align: center;
+        margin-bottom: 0;
+        background: rgb(137, 225, 225);
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+        padding: 60px;
     }
 }
