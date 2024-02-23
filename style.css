@@ -137,3 +137,271 @@
         padding: 60px;
     }
 }
+
+
+
+
+
+
+@media (min-width:561px) and (max-width:999px){
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(85, 122, 122);
+        max-width: 999px;
+    }
+
+    .encabezado{
+        background: rgb(137, 225, 225);
+    }
+    
+    .titulo-principal{
+        background: rgb(137, 225, 225);
+        margin: 0 0 0;
+        padding: 10px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .marca{
+        margin: 0 0 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+        padding-bottom: 5px;
+    }
+
+    .bloque-1{
+        text-align: center;
+    }
+
+    textarea{
+        width: 80%;
+        padding: 17px;
+        font-size: 18px;
+        resize: none;
+        background: rgb(147, 214, 214);
+        border-radius: 10px;
+        color: rgb(85, 122, 122);
+        box-shadow: 3px 3px rgb(137, 225, 225) ;
+    }
+
+    textarea:focus, textarea:active{
+        border: none;
+        outline: none;
+    }
+
+    .tex-informativo{
+        font-size: 14px;
+        text-align: left;
+        margin: 2px 0 10px 10%;
+        font-weight: bold;
+        color: rgb(137, 225, 225);
+    }
+
+    .botones{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .botonEncriptar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonEncriptar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    .botonDesencriptar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonDesencriptar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    .botonCopiar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonCopiar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    footer p{
+        text-align: center;
+        margin-bottom: 0;
+        background: rgb(137, 225, 225);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+        padding: 100px;
+    }
+}
+
+
+
+
+@media (min-width:1000px) and (max-width:1920px){
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(85, 122, 122);
+        max-width: 1920px;
+    }
+
+    .encabezado{
+        background: rgb(137, 225, 225);
+        position: absolute;
+        width: 100%;
+    }
+    
+    .titulo-principal{
+        background: rgb(137, 225, 225);
+        margin: 0 0 0;
+        padding: 45px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .marca{
+        display: inline-block;
+        margin: 0 0 0 53%;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+    }
+
+    .bloque-1{
+        text-align: center;
+    }
+
+    textarea{
+        width: 90%;
+        margin-top: 150px;
+        padding: 17px;
+        font-size: 18px;
+        resize: none;
+        background: rgb(147, 214, 214);
+        border-radius: 10px;
+        color: rgb(85, 122, 122);
+        box-shadow: 3px 3px rgb(137, 225, 225) ;
+    }
+
+    textarea:focus, textarea:active{
+        border: none;
+        outline: none;
+    }
+
+    .tex-informativo{
+        font-size: 14px;
+        text-align: left;
+        margin: 2px 0 10px 10%;
+        font-weight: bold;
+        color: rgb(137, 225, 225);
+    }
+
+    .botones{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .botonEncriptar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonEncriptar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    .botonDesencriptar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonDesencriptar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    .botonCopiar{
+        border: none;
+        margin: 0 10px;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 1s;
+        background: rgb(159, 215, 215);
+    }
+
+    .botonCopiar:hover{
+        width: 31%;
+        transition: 1s;
+        cursor: pointer;
+        box-shadow: 5px 5px rgb(92, 186, 186);
+    }
+
+    footer p{
+        text-align: center;
+        margin-bottom: 0;
+        background: rgb(137, 225, 225);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 161, 193);
+        padding: 100px;
+    }
+}
