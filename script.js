@@ -5,8 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var botonDesencriptar = document.querySelector('.botonDesencriptar');
     var botonCopiar = document.querySelector('.botonCopiar');
 
+    // Función para eliminar acentos
+    function quitarAcentos(texto) {
+        return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+
     // Función para encriptar texto
     function encriptarTexto(texto) {
+        texto = quitarAcentos(texto.toLowerCase()); // Convertir a minúsculas y quitar acentos
         var textoEncriptado = texto.replace(/a/g, 'ai')
                                     .replace(/e/g, 'enter')
                                     .replace(/i/g, 'imes')
